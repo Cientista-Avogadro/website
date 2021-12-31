@@ -1,4 +1,15 @@
+import { Container } from "@mui/material";
+import NavBar from "../NavBar";
+import { ContainerApp } from "./App";
+
 function App() {
-  return <div className="App">App</div>;
+  return (
+    <ContainerApp>
+      <NavBar />
+      <Container>
+        
+      </Container>
+    </ContainerApp>
+  );
 }
 export default App;
